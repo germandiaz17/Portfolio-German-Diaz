@@ -1,0 +1,33 @@
+/* Contenedor principal */
+.what-i-do{
+    width: 100%;
+    background-color: #F7F7F7;
+}
+
+/* SERVICES */
+.row .column-6 section i{
+    height: 100%;
+    background-color: white;
+    font-size: 1.7rem;
+    padding: 18px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.row .column-6 section div{
+    padding-left: 10px;
+    width: 100%;
+}
+
+
+/* BORRAR ESTAS CLASES comentadas */
+/* .row .column-6 p{
+    padding-left: 80px;
+} */
+
+/* .center-title-services{
+    display: flex;
+    justify-content: flex-start;
+} */
+
+

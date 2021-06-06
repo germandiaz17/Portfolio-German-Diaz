@@ -1,0 +1,119 @@
+/* Estilos generales "clases que pueden ser reutilizadas"*/
+
+
+/* color yellow */
+.yellow{
+    color: #DDB127;
+}
+/* margenes para el contenido principal */
+.margin-content{
+    margin: auto;
+    width: 70%;
+}
+
+.margin-content-two{
+    margin: auto;
+    width: 90%;
+}
+
+/* CENTRAR */
+/* centrar texto */
+.text-align-center{
+    text-align: center;
+}
+/* centrar un elemento con flexbox*/
+.center-element-fbx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* POSITION */
+/* position relative */
+.position-relative{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
+}
+
+
+
+/* DISPLAY */
+/* display flex */
+.flex{
+    display: flex;
+}
+
+/* display block */
+.display-block{
+    display: block;
+}
+
+
+
+/* contenedor para titulos de la seccion principal */
+/* seccion de titulo */
+.title-seccion{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-title-seccion{
+    position: relative;
+    display: flex;
+}
+
+.content-title-seccion h1{
+    font-size: 800%;
+    /* font-size: 9rem; */
+    /* font-size: 200px; */
+    color: #EEEEEE;
+    overflow: hidden;
+}
+
+.secundary-title-seccion{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secundary-title-seccion h4{
+    color: #131111;
+    font-size: 2rem;
+}
+
+
+
+
+
+/* sistema de filas */
+.row{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+ /* sistema de columnas  */
+ .column-8{
+    width: 66.666%;
+} 
+
+.column-4{
+    width: 33.333%;
+}
+
+.column-6{
+    width: 50.000%;
+    padding-right: 25px;
+}

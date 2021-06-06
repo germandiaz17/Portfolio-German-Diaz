@@ -1,0 +1,45 @@
+/* contenedor para el contenido principal en el extremo derecho */
+.principal-content{
+    width: 1000px;
+    margin-left: 300px;
+    width: calc(100% - 300px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* contenedor para presentar la bienvenida (mide todo el view de alto y ancho) */
+.primary-view{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/intro-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 0px;
+    color: aliceblue;
+}
+
+    /* titulos */
+.primary-view .text-align-center h3{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.primary-view .text-align-center h1{
+    font-size: 80px;
+}
+
+.primary-view .text-align-center p{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+/* oscurecimiento de la pantalla */
+.dark-screen{
+    position: absolute;
+    top: 0;
+    left: 300px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    color: #D3D3D3;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* contenedor para hacer el flex y poder partir la pantalla */
+.contenedor-nav-bar{
+    display: flex;
+}

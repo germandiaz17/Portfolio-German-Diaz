@@ -1,0 +1,126 @@
+/* contenedor general del nav-bar */
+.section-nav-bar{
+    background-color: #131111;
+    width: 300px;
+    height: 100vh;
+    overflow: auto;
+    position: fixed;
+}
+
+/* seccion para la imagen (PERFIL) */
+.section-profile-nav-bar{
+    /* background-color: brown; */
+    width: 100%;
+    height: 30vh;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.center-img-nav-bar{
+    /* background-color: aqua; */
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-radius-img{
+    height: 95%;
+    width: 95%;
+    border-radius: 50%;
+    border: solid #2C2B2B 7px;
+    overflow: hidden;
+}
+
+.border-radius-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* nombre */
+.name-nav-bar{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 7vh;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-nav-bar h1{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.name-nav-bar h1:hover{
+    color: #DDB127;
+}
+
+/* seccion para barra de navegación */
+.nav-bar-links{
+    /* background-color: blue; */
+    width: 100%;
+    height: 57vh;
+    min-height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar-links ul li{
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-bar-links ul li a{
+    font-weight: 300;
+}
+
+.nav-bar-links ul li a:hover{
+    /* color: #A71D1D; */
+    color: #DDB127;
+}
+
+/* seccion para redes sociales en la barra de navegacion lateral */
+.social-networks-nav-bar{
+    /* background-color: yellowgreen; */
+    width: 100%;
+    height: 6vh;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-nav-bar{
+    /* background-color: aqua; */
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-networks-nav-bar ul li{
+    display: inline;
+}
+
+.facebookColor:hover{
+    color: blue !important;
+}
+
+.instagramColor:hover{
+    color: #BA0CB2 !important;
+}
+
+.githubColor:hover{
+    color: #169E1C !important;
+}
+
+.linkedinColor:hover{
+    color:  #3486D3 !important;
+}

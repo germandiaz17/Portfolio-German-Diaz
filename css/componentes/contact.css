@@ -1,0 +1,58 @@
+/* contenedor principal */
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-color: #F7F7F7;
+}
+
+
+
+/* seccion de direcciones */
+.address{
+   padding-bottom: 25px;
+}
+
+.address h3{
+    font-weight: 600;
+    padding: 20px 0px;
+}
+
+.address p{
+    padding-bottom: 5px;
+}
+
+/* seccion de telefonos y correos */
+
+.number-contacts{
+    padding-bottom: 25px;
+}
+
+.number-contacts section{
+    padding-bottom: 5px;
+}
+
+.number-contacts section i{
+    font-size: 20px;
+}
+
+/* seccion de redes sociales FOLLOW ME */
+
+.send-mail h3{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.follow-me{
+    padding-bottom: 29px;
+}
+
+.follow-me h3{
+    font-weight: 400;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.follow-me .center-nav-bar a{
+    color: #787878;
+    font-size: 25px;
+}

@@ -1,0 +1,58 @@
+/* contenedor principal */
+.about-me{
+    width: 100%;
+    height: 90vh;
+    margin-bottom: 10px;
+}
+
+/* contenedor para separar de las esquinas */
+.section-info{
+    max-width: 90%;
+    margin: auto;
+}
+
+.section-info .column-8 h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.section-info .column-8 p{
+    line-height: 30px;
+}
+
+.section-info .column-8 span{
+    color: #DDB127;
+}
+
+
+.section-info .column-4 span{
+    font-weight: 600;
+}
+
+.section-info .column-4 a{
+    color: #DDB127;
+}
+
+.section-info .column-4 hr{
+    background-color: #EEEEEE;
+    margin-bottom: 10px;
+}
+
+
+.button-styles{
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+    background-color: #ddb027;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all .5s;
+}
+
+.button-styles:hover{
+    background-color: #c2a40c;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
