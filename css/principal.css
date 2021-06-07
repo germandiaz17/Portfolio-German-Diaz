@@ -1,6 +1,6 @@
 /* contenedor para el contenido principal en el extremo derecho */
 .principal-content{
-    width: 1000px;
+    /* width: 1000px; */
     margin-left: 300px;
     width: calc(100% - 300px);
     display: flex;
