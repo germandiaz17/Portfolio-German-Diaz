@@ -32,6 +32,11 @@
             width: 100%;
         } 
 
+        .row .column-6 section div {
+            padding-left: 0px;
+            /* width: 0%; */
+        }
+
     /* titulos */
 
     /* .primary-view { */
@@ -64,7 +69,6 @@
     .section-info h3{
         font-weight: 700;
         width: 80%;
-        margin: auto;
     }
 
     .section-info .column-8 p{
@@ -79,7 +83,7 @@
     /* services */
 
     .section-info section i{
-        margin-left: 47%;
+        margin-left: 45%;
         margin-bottom: 30px;
     }
 
@@ -89,7 +93,11 @@
     }
 
     .section-info section p{
-        text-align: center;
+        text-align:center;
+    }
+
+    .section-info .column-8 p{
+        text-align: left;
     }
 
     /* portfolio */
@@ -116,7 +124,7 @@
     .portfolio .column-4 .portfolio-galery-tipo3{
         width: 400px;
         height: 400px;
-        }
+    }
 
 
     /* contact */
@@ -240,11 +248,12 @@
     .section-info .column-4 a {
         font-size: 80%;
     }
+    .contact p {
+        font-size: 70%;  
+        margin-bottom: 20px;
+    }
 
     .contact {
         text-align: center;
-    }
-    .contact p {
-        font-size: 70%;  
     }
 }
