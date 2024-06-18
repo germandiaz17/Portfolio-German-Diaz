@@ -1,5 +1,5 @@
     /* TAMAÑO DE PANTALLA MEDIANA */
-@media (max-width: 1258px){
+@media (max-width: 1328px){
     /* botones */
     .button-styles{
         font-size: 15px;
@@ -32,6 +32,5 @@
     .row{
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 0px;
     }
 }

@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
 /* Estilos generales "clases que pueden ser reutilizadas"*/
 
 
 /* color yellow */
-.yellow{
-    color: #DDB127;
+.red{
+    color: #7f0f0f;
 }
 /* margenes para el contenido principal */
 .margin-content{
     margin: auto;
-    width: 70%;
+    width: 90%;
 }
 
 .margin-content-two{
@@ -26,6 +32,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.contenedor-general {
+    background-color: #F8F0E5;
 }
 
 
@@ -73,9 +83,7 @@
 
 .content-title-seccion h1{
     font-size: 800%;
-    /* font-size: 9rem; */
-    /* font-size: 200px; */
-    color: #EEEEEE;
+    color: #D8C4B6;
     overflow: hidden;
 }
 
@@ -90,7 +98,7 @@
 }
 
 .secundary-title-seccion h4{
-    color: #131111;
+    color: #561C24;
     font-size: 2rem;
 }
 
@@ -100,7 +108,7 @@
     cursor: pointer;
     border: none;
     border-radius: 40px;
-    background-color: #FFC107;
+    background-color: #C7B7A3;
     padding: 20px;
     margin-top: 30px;
     font-size: 20px;
@@ -111,10 +119,6 @@
 .button-styles:hover{
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
 }
-
-
-
-
 
 /* sistema de filas */
 .row{

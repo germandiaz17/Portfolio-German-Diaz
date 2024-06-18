@@ -1,57 +1,124 @@
 /* contenedor principal */
 .contact{
     width: 100%;
-    background-color: #F7F7F7;
+    background-color: #EADBC8;
+}
+
+#contacto {
+    max-width: 600px;
+    margin: auto 50px 50px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#contacto h2 {
+    text-align: center;
+    color: #333;
+}
+
+#contacto p {
+    text-align: center;
+    color: #666;
+}
+
+#contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contacto label {
+    margin-top: 10px;
+    color: #333;
+}
+
+#contacto input,
+#contacto textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#contacto button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #65e30a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#contacto button:hover {
+    background-color: #0056b3;
+}
+
+#whatsapp-contacto {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#whatsapp-contacto p {
+    color: #333;
+}
+
+#whatsapp-contacto a button {
+    background-color: #25D366;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#whatsapp-contacto a button:hover {
+    background-color: #1DA851;
 }
 
 
-
-/* seccion de direcciones */
-.address{
-   padding-bottom: 25px;
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
 }
 
-.address h3{
-    font-weight: 600;
-    padding: 20px 0px;
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.address p{
-    padding-bottom: 5px;
+.footer-container div {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
 }
 
-/* seccion de telefonos y correos */
-
-.number-contacts{
-    padding-bottom: 25px;
+.footer-container h3 {
+    margin-bottom: 10px;
 }
 
-.number-contacts section{
-    padding-bottom: 5px;
+.footer-container p, .footer-container a {
+    color: #bbb;
+    text-decoration: none;
 }
 
-.number-contacts section i{
-    font-size: 20px;
+.footer-container a:hover {
+    color: #fff;
 }
 
-/* seccion de redes sociales FOLLOW ME */
-
-.send-mail h3{
-    font-weight: 400;
-    font-size: 30px;
-}
-
-.follow-me{
-    padding-bottom: 29px;
-}
-
-.follow-me h3{
-    font-weight: 400;
-    font-size: 25px;
-    padding-bottom: 10px;
-}
-
-.follow-me .center-nav-bar a{
-    color: #787878;
-    font-size: 25px;
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
 }

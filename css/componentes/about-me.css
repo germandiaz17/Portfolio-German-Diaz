@@ -1,12 +1,11 @@
 /* contenedor principal */
 .about-me{
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 2.5rem;
 }
 
 /* contenedor para separar de las esquinas */
 .section-info{
-    max-width: 90%;
     margin: auto;
 }
 
@@ -21,7 +20,7 @@
 }
 
 .section-info .column-8 span{
-    color: #DDB127;
+    color: #C7B7A3;
 }
 
 
@@ -30,7 +29,7 @@
 }
 
 .section-info .column-4 a{
-    color: #DDB127;
+    color: #C7B7A3;
 }
 
 .section-info .column-4 hr{

@@ -1,7 +1,7 @@
 /* Contenedor principal */
 .what-i-do{
     width: 100%;
-    background-color: #F7F7F7;
+    background-color: #EADBC8;
 }
 
 /* SERVICES */
@@ -18,16 +18,3 @@
     padding-left: 10px;
     width: 100%;
 }
-
-
-/* BORRAR ESTAS CLASES comentadas */
-/* .row .column-6 p{
-    padding-left: 80px;
-} */
-
-/* .center-title-services{
-    display: flex;
-    justify-content: flex-start;
-} */
-
-

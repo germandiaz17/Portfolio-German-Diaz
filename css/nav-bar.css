@@ -1,6 +1,6 @@
 /* contenedor general del nav-bar */
 .section-nav-bar{
-    background-color: #131111;
+    background-color: #561C24;
     width: 300px;
     height: 100vh;
     overflow: auto;
@@ -31,13 +31,17 @@
     height: 95%;
     width: 95%;
     border-radius: 50%;
-    border: solid #2C2B2B 7px;
+    border: solid #C7B7A3 7px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .border-radius-img img{
     width: 100%;
     height: 100%;
+    
 }
 
 /* nombre */
@@ -59,7 +63,7 @@
 }
 
 .name-nav-bar h1:hover{
-    color: #DDB127;
+    color: #E8D8C4;
 }
 
 /* seccion para barra de navegación */
@@ -80,11 +84,12 @@
 
 .nav-bar-links ul li a{
     font-weight: 300;
+    color: white;
 }
 
 .nav-bar-links ul li a:hover{
     /* color: #A71D1D; */
-    color: #DDB127;
+    color: #E8D8C4;
 }
 
 /* seccion para redes sociales en la barra de navegacion lateral */
@@ -99,10 +104,9 @@
 }
 
 .center-nav-bar{
-    /* background-color: aqua; */
     width: 80%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .social-networks-nav-bar ul li{

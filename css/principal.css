@@ -1,8 +1,8 @@
 /* contenedor para el contenido principal en el extremo derecho */
 .principal-content{
-    width: 1000px;
+    /* width: 1000px; */
     margin-left: 300px;
-    width: calc(100% - 300px);
+    /* width: calc(100% - 300px); */
     display: flex;
     flex-wrap: wrap;
 }
@@ -23,15 +23,18 @@
 .primary-view .text-align-center h3{
     font-weight: 600;
     font-size: 40px;
+    color: #E8D8C4;
 }
 
 .primary-view .text-align-center h1{
     font-size: 80px;
+    color: #6D2932;
 }
 
 .primary-view .text-align-center p{
     font-weight: 400;
     font-size: 25px;
+    color: #E8D8C4;
 }
 
 /* oscurecimiento de la pantalla */

@@ -1,6 +1,6 @@
 /* responsive para version mobile */
 
-@media (max-width: 1113px){
+@media (max-width: 1154px){
 
     /* eliminacion del menu lateral */
     .section-nav-bar{
@@ -10,14 +10,6 @@
     /* agregacion del 100% de la pantalla al contenido principal */
     .principal-content{
         margin-left: 0px;
-        width: calc(100% - 0px);
-        width: 900px;
-
-        /* width: 1000px;
-        margin-left: 300px;
-        width: calc(100% - 300px);
-        display: flex;
-        flex-wrap: wrap; */
     }
 
     .dark-screen{
@@ -26,11 +18,11 @@
 }
 
 
-@media (max-width: 792px){
+@media (max-width: 855px){
         /* contenido general */
-        .margin-content{
-            width: 100%;
-        }
+         /* .margin-content{
+            width: 95%;
+        } */
     
         .column-8{
             width: 100%;
@@ -38,9 +30,14 @@
     
         .column-4{
             width: 100%;
-        }
+        } 
 
     /* titulos */
+
+    /* .primary-view { */
+        /* height: 98.3vh; */
+    /* } */
+
     .primary-view .text-align-center h3{
         font-weight: 600;
         font-size: 25px;
@@ -138,7 +135,7 @@
 }
 
 
-@media (max-width: 607px){
+@media (max-width: 777px){
     /* titulos */
     .primary-view .text-align-center h3{
         font-size: 20px;
@@ -162,7 +159,92 @@
         font-size: 120%;
     }
 
-    .primary-view{
-        width: 100vw;
+    /* .primary-view{ */
+        /* width: 100vw; */
+    /* } */
+}
+
+@media (max-width: 611px) {
+    .primary-view{ 
+         width: 100vw; 
+     }
+     footer {
+        font-size: 0.5rem;
+     }    
+
+     body {
+        font-size: 0.8rem;
+     }
+
+     .row .column-6 section div {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .column-8 {
+        padding-right: 0;
+    }
+
+    .portfolio .column-4 .portfolio-galery-tipo3 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .portfolio .column-4 .portfolio-galery-tipo1 {
+        width: 150px;
+        height: 120px;
+    }
+
+    .portfolio .column-4 .portfolio-galery-tipo2 {
+        width: 150px;
+        height: 320px;
+    }
+
+    .primary-view .text-align-center h3{
+        font-weight: 300;
+        font-size: 15px;
+    }
+    
+    .primary-view .text-align-center h1{
+        font-size: 25px;
+    }
+    
+    .primary-view .text-align-center p{
+        font-weight: 200;
+        font-size: 10px;
+    }
+
+    .content-title-seccion h1 {
+        font-size: 210%;
+    }
+    .content-title-seccion h4 {
+        font-size: 80%;
+    }
+
+    .section-info .column-8 h3 {
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+
+    #contacto {
+        margin: auto 10px 10px auto;
+    }
+
+    .primary-view {
+        height: 98vh;
+    }
+    .dark-screen {
+        height: 98vh;
+    }
+
+    .section-info .column-4 a {
+        font-size: 80%;
+    }
+
+    .contact {
+        text-align: center;
+    }
+    .contact p {
+        font-size: 70%;  
     }
 }
